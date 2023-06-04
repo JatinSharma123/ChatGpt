@@ -1,0 +1,31 @@
+.card-with-bg-image {
+  position: relative;
+  height: 26vh;
+  border: none;
+}
+
+.card-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background: #b24592; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b24592, #f15f79); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b24592, #f15f79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 10;
+}
+
+.card-body {
+  position: relative;
+  z-index: 1;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
